@@ -1,0 +1,510 @@
+*{
+  
+   box-sizing: border-box;
+   border: 0;
+   margin: 0;
+
+}
+
+
+/*heading part*/
+
+.heading2 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 40px;
+   background-color: #ffffff;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   position: fixed;
+   width: 100%;
+   z-index: 1000;
+}
+.heading2{
+   display: none;
+}
+/* .menu{
+   display: none;
+} */
+
+.logo {
+   font-size: 24px;
+   font-weight: bold;
+   color: #2c3e50;
+}
+
+.navabr{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+.navabr{
+   display: none;
+}
+
+
+/* SIGN UP */
+/* body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f5f5f5;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.signup-container {
+   background-color: #ffffff;
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   width: 400px;
+   text-align: center;
+}
+
+h2 {
+   margin-bottom: 20px;
+   color: #2c3e50;
+}
+
+.form-group {
+   margin-bottom: 15px;
+   text-align: left;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+   color: #2c3e50;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+   border-color: #e74c3c;
+   outline: none;
+}
+
+.signup-button {
+   background-color: #e74c3c;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+   background-color: #c0392b;
+} 
+ 
+/* BOOK NOW= */
+/* body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f5f5f5;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.booking-container {
+   background-color: #ffffff;
+   padding: 40px;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   width: 400px;
+   text-align: center;
+}
+
+h2 {
+   margin-bottom: 20px;
+   color: #2c3e50;
+}
+
+.form-group {
+   margin-bottom: 15px;
+   text-align: left;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+   color: #2c3e50;
+}
+
+input[type="date"],
+select {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+}
+
+input[type="date"]:focus,
+select:focus {
+   border-color: #e74c3c;
+   outline: none;
+}
+
+.booking-button {
+   background-color: #e74c3c;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.booking-button:hover {
+   background-color: #c0392b;
+ } */ 
+  /* *** */
+
+/* signup */
+.icon {
+   background-color: hsl(7, 27%, 87%);
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+
+
+.menu ul {
+   list-style: none;
+   display: flex;
+   
+}
+
+.menu ul li {
+   margin: 0 15px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: #2c3e50;
+   font-weight: 500;
+}
+
+.menu-icons {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 10px;
+}
+
+.icon {
+   margin-left: 20px;
+   text-decoration: none;
+   color: #2c3e50;
+}
+
+.book-now {
+   background-color: #e74c3c;
+   color: white;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.hero-image {
+   background-image: url('image_trident_main20.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-align: center;
+   padding-top: 80px; /* To avoid overlap with the fixed header */
+}
+
+.main-heading {
+   font-size: 48px;
+   font-weight: bold;
+  
+}
+
+.sub-heading {
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+/*heading part*/
+
+#container{
+   width: 100%;
+   border: 1px solid red;
+}
+
+ header {
+   background-color: #333;
+   color: white;
+   padding: 10px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ } 
+
+header .logo {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+}
+
+nav ul li {
+   margin-left: 20px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.hero {
+   background-image:url(../Trident_image/image_trident_main19.jpg) ;
+   color: white;
+   text-align: center;
+   padding: 100px 20px;
+   /* margin: 10px; */
+   width: 100%;
+}
+/* .hero {
+   background: image 100px;
+} */
+.hero h1 {
+   font-size: 48px;
+}
+
+.hero p {
+   font-size: 24px;
+}
+
+.btn {
+   background-color: #f39c12;
+   color: white;
+   padding: 10px ;
+   text-decoration: none;
+   border-radius: 5px;
+   margin-top: 20%;
+   
+   /* align-items: center; */
+}
+
+/* section {
+   padding: 20px;
+   margin: 20px;
+   width: 100%;
+} */
+#room1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+}
+.room {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;   
+   text-align: center;
+   border: 1px solid #ccc;
+   margin: 10px 0;
+   padding: 10px;
+   width: 100%;
+   
+}
+.room img{
+   width: 100%;
+}
+
+.room h2{
+   text-align: center;
+}
+
+#hotel_item{
+   width: 100%;
+   text-align: center;
+}
+#parent{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+#hotel{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   text-align: center;
+   width: 80%;
+}
+#hotel-item{
+   width: 100%;
+   margin: 10px;
+   align-items: center;
+   margin: 10px;
+}
+#hotel-item h4{
+   text-align: center;
+}
+#hotel-item .menu-icons{
+   align-items: center;
+}
+.hotel-item img{
+   width: 100%;
+}
+#dining{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   margin: 10px;
+}
+#dining h2{
+   text-align: center;
+}
+.dining-item{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   margin: 10px;
+}
+.dining-item img{
+   width: 100%;
+
+}
+#weding{ 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   /* width: 100%; */
+   /* margin: 10px; */
+}
+
+#weding-item{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   margin: 10px;
+}
+.weding-item img{
+   width: 100%;
+}
+
+@media only screen and (min-width:768px) 
+{
+   .navabr{
+      display: contents;
+   }
+   .heading2 {
+      display: visible;
+      width: 100%;
+      
+   }
+   .hotel-item{
+      width: 30%;
+   }
+   .dining-item{
+      width: 30%;
+   }
+   #weding{
+      width: 100%;
+   
+   }
+
+   
+   
+}
+@media only screen and (min-width:1200px)
+{
+   .navabr{
+      display: contents;
+   }
+   .heading2 {
+      display: visible;
+      width: 100%;
+      
+   }
+   .room{
+      width: 100%;
+   }
+   .hotel-item{
+      width: 30%;
+   }
+   .dining-item{
+      width: 30%;
+   }
+   #weding{
+      width: 100%;
+   
+   }
+   
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 1;
+    width: 100%;
+}
+
+.footer-content {
+    margin-bottom: 10px;
+}
+
+.socials {
+    list-style: none;
+   
+}
+
+.socials li {
+    display: inline;
+
+}
+
+.footer-bottom {
+    font-size: 14px;
+}
